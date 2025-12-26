@@ -5,6 +5,7 @@ def sqrt(x):
     '''This is a Docstring'''  #works as comment
     print(result)
 sqrt(45)
+help(sqrt)
 print(sqrt.__doc__)
 import functions
 # print(math.sqrt(25))

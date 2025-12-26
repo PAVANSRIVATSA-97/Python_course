@@ -14,12 +14,12 @@ m = function(2,3,4)  # positional argument is that order of the arguments will b
 
 #Lambda Function - In line function
 cube = lambda x: x*x*x
-'''This is a cube function which returns the cube of a number'''
+'''This is a cube function which returns the cube of a number'''  
 # print(cube(3))
 
 #Recursion - function inside a function
 # def fibo(n):
-#     if (n==0 or n==1):
+#     if (n==0 or n==1): base case
 #         return n
 #     return fibo(n-2) + fibo(n-1)
 # print(fibo(6))    
