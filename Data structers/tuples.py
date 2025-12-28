@@ -19,4 +19,10 @@ print(tuple)
 
 tuple2 = (1, 2, 3, 4, 5) # we can assign the elements of a tuple to multiple variables
 a, b, c, d, e = tuple2  # unpacking a tuple into multiple variables
-print(a, b, c, d, e)
+print(a, b, c, d, e) 
+# we can also use the asterisk (*) operator to unpack remaining elements into a list
+tuple3 = (10, 20, 30, 40, 50, 60, 70)
+x, y, *z = tuple3
+print(x)  # prints 10
+print(y)  # prints 20   
+print(z)  # prints [30, 40, 50, 60, 70]

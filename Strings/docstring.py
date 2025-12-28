@@ -7,6 +7,7 @@ def sqrt(x):
 sqrt(45)
 help(sqrt)
 print(sqrt.__doc__)
+
 import functions
 # print(math.sqrt(25))
 print(functions.cube(4))
