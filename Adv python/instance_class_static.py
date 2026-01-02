@@ -21,7 +21,7 @@ f1 = friends("Pavan", 21)
 f2 = friends("Anu", 22)
 f1.display()
 f2.display()
-print(f2.sum(5, 10))  # calling static method using class name\
+print(f2.sum(5, 10))  # calling static method using class name
 print(friends.location)  # accessing class variable using class name
 friends.change_location("Chennai")  # changing class variable using class method
 print(friends.location)  # accessing updated class variable using class name
